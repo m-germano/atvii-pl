@@ -1,54 +1,88 @@
-# React + TypeScript + Vite
+# Projeto PetLovers (PL) – Interface Gráfica (GUI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório apresenta o sistema **PetLovers (PL)** com **interface gráfica** desenvolvida em **React + TypeScript**, como parte da atividade prática orientada pelo Professor Dr. Eng. Gerson Penha. O sistema foi idealizado para atender pet shops, clínicas veterinárias e lojas especializadas no mercado pet, com foco em usabilidade, modernidade e responsividade.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo
 
-## Expanding the ESLint configuration
+Modernizar o sistema PetLovers por meio de uma **interface gráfica (GUI)** responsiva, intuitiva e funcional, garantindo compatibilidade com navegadores web e dispositivos móveis.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🧰 Tecnologias Utilizadas
+
+- **React 18.2.0** – biblioteca para construção da interface gráfica
+- **TypeScript** – tipagem estática e estrutura robusta
+- **ShadCN + Tailwind CSS** – estilização moderna e responsiva
+- **Componentes de classe** – conforme diretrizes do projeto
+
+---
+
+## 🖥️ Funcionalidades
+
+A interface permite ao usuário navegar entre diferentes abas e gerenciar as seguintes áreas do sistema:
+
+### 👥 Clientes
+
+- Cadastro completo de clientes com nome, CPF, nome social, RG e múltiplos telefones.
+- Edição, exclusão e visualização de detalhes.
+- Associação de **pets** aos clientes.
+
+### 🐾 Pets
+
+- CRUD de pets com nome, tipo, raça e gênero.
+- Associação de cada pet a um cliente específico.
+
+### 🛍️ Produtos e Serviços
+
+- Cadastro, edição e exclusão de **produtos** e **serviços** oferecidos pelo estabelecimento.
+
+### 🧾 Registro de Consumo
+
+- Registro das compras de produtos e serviços por cliente.
+
+### 📊 Estatísticas
+
+- Top 10 clientes por quantidade de consumo.
+- Top 5 clientes por valor total consumido.
+- Produtos e serviços mais consumidos (geral).
+- Produtos e serviços mais consumidos por **tipo e raça de pet**.
+
+---
+
+## 🎥 Demonstração em Vídeo
+
+> _(Espaço reservado para link do vídeo demonstrativo)_
+
+---
+
+## 🚀 Como Executar o Projeto
+
+> Pré-requisitos: Node.js e npm
+
+```bash
+# Clone o repositório
+git clone https://github.com/m-germano/atvii-pl
+
+# Acesse o diretório
+cd atvii-pl
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 👨‍💻 Desenvolvedor
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Este sistema foi desenvolvido como parte da atividade prática acadêmica da disciplina de Programação Orientada a Objetos, com foco em UI Design e componentização em React (com componentes de classe).
+
+---
+
+## 📄 Licença
+
+Projeto educacional sem fins lucrativos – Licença MIT.
