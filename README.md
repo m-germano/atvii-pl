@@ -1,4 +1,4 @@
-# Projeto PetLovers (PL) – Interface Gráfica (GUI)
+# Atividade 2 - Projeto PetLovers (PL) – Interface Gráfica (GUI)
 
 Este repositório apresenta o sistema **PetLovers (PL)** com **interface gráfica** desenvolvida em **React + TypeScript**, como parte da atividade prática orientada pelo Professor Dr. Eng. Gerson Penha. O sistema foi idealizado para atender pet shops, clínicas veterinárias e lojas especializadas no mercado pet, com foco em usabilidade, modernidade e responsividade.
 
