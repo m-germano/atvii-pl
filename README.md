@@ -6,7 +6,7 @@ Este repositório apresenta o sistema **PetLovers (PL)** com **interface gráfic
 
 ## 🎯 Objetivo
 
-Modernizar o sistema PetLovers por meio de uma **interface gráfica (GUI)** responsiva, intuitiva e funcional, garantindo compatibilidade com navegadores web e dispositivos móveis.
+Modernizar o sistema PetLovers por meio de uma **interface gráfica (GUI)** responsiva, intuitiva e funcional, garantindo compatibilidade com navegadores web e dispositivos móveis. Para essa atividade cabe ao desenvolvedor utilizar componentes de classe no React.
 
 ---
 
@@ -53,7 +53,11 @@ A interface permite ao usuário navegar entre diferentes abas e gerenciar as seg
 
 ## 🎥 Demonstração em Vídeo
 
-> _(Espaço reservado para link do vídeo demonstrativo)_
+
+
+
+https://github.com/user-attachments/assets/4ed215b1-2d15-4c67-b060-cfc12ac58a38
+
 
 ---
 
