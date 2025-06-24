@@ -16,7 +16,7 @@ export interface Cliente {
   nome: string;
   nomeSocial?: string;
   cpf: CPF;
-  rg: RG; // <-- Alterado aqui
+  rg: RG; 
   dataCadastro: Date;
   telefones: Telefone[];
   pets?: Pet[];
