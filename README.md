@@ -14,6 +14,7 @@ Modernizar o sistema PetLovers por meio de uma **interface gráfica (GUI)** resp
 
 - **React 18.2.0** – biblioteca para construção da interface gráfica
 - **TypeScript** – tipagem estática e estrutura robusta
+- **NodeJS v22.15.0** - Instalação dos pacotes
 - **ShadCN + Tailwind CSS** – estilização moderna e responsiva
 - **Componentes de classe** – conforme diretrizes do projeto
 
